@@ -44,5 +44,15 @@ export const portfolioProjects = [
     image: "https://customer-assets.emergentagent.com/job_nycode-lab/artifacts/pu4fdpuj_Captura%20de%20ecr%C3%A3%202026-02-21%20114038.png",
     url: "https://naturezaemdia.netlify.app/",
     tags: ["Website", "Natureza", "Educação"]
+  },
+  {
+    id: 3,
+    title: "Aventura Arcade",
+    description: "Jogo de aventura estilo retro criado no MakeCode Arcade! Explora o labirinto, evita obstáculos e conquista objetivos!",
+    category: "Jogo",
+    status: "live",
+    image: "https://customer-assets.emergentagent.com/job_nycode-lab/artifacts/vryayee3_Captura%20de%20ecr%C3%A3%202026-02-21%20114532.png",
+    url: "https://arcade.makecode.com/S14635-17622-21123-02393",
+    tags: ["MakeCode", "Arcade", "Aventura"]
   }
 ];
