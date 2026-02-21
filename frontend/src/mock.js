@@ -65,5 +65,15 @@ export const portfolioProjects = [
     url: "https://www.roblox.com/share?code=63fe43b144d12540a9e8e5bf8670e28d&type=ExperienceDetails&stamp=1771671217987",
     videoUrl: "https://www.instagram.com/reel/C_U4jyiNFwv/?igsh=eTY5ZWxyNDVyNWJm",
     tags: ["Roblox", "Obby", "Pink"]
+  },
+  {
+    id: 5,
+    title: "Christmas Ville - The Best Experience",
+    description: "Uma vila de Natal mágica no Roblox! Explora o mundo nevado, decorações festivas, roda gigante e muito mais!",
+    category: "Jogo",
+    status: "live",
+    image: "https://customer-assets.emergentagent.com/job_nycode-lab/artifacts/dgdiyjq6_Captura%20de%20ecr%C3%A3%202026-02-21%20120040.png",
+    url: "https://www.roblox.com/share?code=aed0ea8d9d6e264e8968c99fac11dbbf&type=ExperienceDetails&stamp=1771671693159",
+    tags: ["Roblox", "Natal", "Aventura"]
   }
 ];
