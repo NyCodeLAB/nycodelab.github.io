@@ -297,11 +297,13 @@ const Home = () => {
               </p>
             </div>
             <div className="flex gap-4">
-              <Button size="icon" variant="outline" className="border-gray-700 hover:bg-gray-800 text-gray-400 hover:text-pink-400">
+              <Button 
+                size="icon" 
+                variant="outline" 
+                className="border-gray-700 hover:bg-gray-800 text-gray-400 hover:text-pink-400"
+                onClick={() => window.open('https://github.com/NyCodeLAB', '_blank')}
+              >
                 <Github className="w-5 h-5" />
-              </Button>
-              <Button size="icon" variant="outline" className="border-gray-700 hover:bg-gray-800 text-gray-400 hover:text-pink-400">
-                <Mail className="w-5 h-5" />
               </Button>
             </div>
           </div>
