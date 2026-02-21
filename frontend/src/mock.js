@@ -57,7 +57,7 @@ export const portfolioProjects = [
   },
   {
     id: 4,
-    title: "Cute Pink Hobby",
+    title: "Cute Pink Obby",
     description: "O meu jogo de Roblox com tema rosa! Um obby divertido e desafiante. Vê o vídeo do jogo no Instagram!",
     category: "Jogo",
     status: "live",
