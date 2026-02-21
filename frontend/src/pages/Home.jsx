@@ -220,23 +220,46 @@ const Home = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             {filteredProjects.map((project) => (
               <Card key={project.id} className="border-2 border-pink-100 hover:border-pink-300 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group">
-                <div className="h-48 bg-gradient-to-br from-pink-100 via-yellow-100 to-orange-100 flex items-center justify-center relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-pink-200/50 to-yellow-200/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <div className="relative z-10 text-center">
-                    {project.category === 'Python' && <Code className="w-16 h-16 text-pink-400 mx-auto mb-2" />}
-                    {project.category === 'Jogo' && <Gamepad2 className="w-16 h-16 text-yellow-500 mx-auto mb-2" />}
-                    {project.category === 'Website' && <Globe className="w-16 h-16 text-orange-400 mx-auto mb-2" />}
-                    <Badge className="bg-white text-gray-700">{project.category}</Badge>
+                {project.image ? (
+                  <div className="h-48 relative overflow-hidden">
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-2 right-2">
+                      <Badge className="bg-pink-500 text-white">{project.category}</Badge>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <div className="h-48 bg-gradient-to-br from-pink-100 via-yellow-100 to-orange-100 flex items-center justify-center relative overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-pink-200/50 to-yellow-200/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="relative z-10 text-center">
+                      {project.category === 'Python' && <Code className="w-16 h-16 text-pink-400 mx-auto mb-2" />}
+                      {project.category === 'Jogo' && <Gamepad2 className="w-16 h-16 text-yellow-500 mx-auto mb-2" />}
+                      {project.category === 'Website' && <Globe className="w-16 h-16 text-orange-400 mx-auto mb-2" />}
+                      <Badge className="bg-white text-gray-700">{project.category}</Badge>
+                    </div>
+                  </div>
+                )}
                 <CardHeader>
                   <CardTitle className="text-xl">{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <Button variant="outline" className="w-full border-2 border-pink-200 text-pink-600 hover:bg-pink-50">
-                    Em Breve
-                  </Button>
+                  {project.status === 'live' && project.url ? (
+                    <Button 
+                      className="w-full bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-pink-600 hover:to-yellow-600 text-white border-0"
+                      onClick={() => window.open(project.url, '_blank')}
+                    >
+                      <Gamepad2 className="w-4 h-4 mr-2" />
+                      Jogar Agora
+                    </Button>
+                  ) : (
+                    <Button variant="outline" className="w-full border-2 border-pink-200 text-pink-600 hover:bg-pink-50">
+                      Em Breve
+                    </Button>
+                  )}
                 </CardContent>
               </Card>
             ))}
