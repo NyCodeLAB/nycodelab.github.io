@@ -54,5 +54,16 @@ export const portfolioProjects = [
     image: "https://customer-assets.emergentagent.com/job_nycode-lab/artifacts/vryayee3_Captura%20de%20ecr%C3%A3%202026-02-21%20114532.png",
     url: "https://arcade.makecode.com/S14635-17622-21123-02393",
     tags: ["MakeCode", "Arcade", "Aventura"]
+  },
+  {
+    id: 4,
+    title: "Cute Pink Hobby",
+    description: "O meu jogo de Roblox com tema rosa! Um obby divertido e desafiante. Vê o vídeo do jogo no Instagram!",
+    category: "Jogo",
+    status: "live",
+    image: "https://customer-assets.emergentagent.com/job_nycode-lab/artifacts/40qhf0rc_Captura%20de%20ecr%C3%A3%202026-02-21%20115301.png",
+    url: "https://www.roblox.com/share?code=63fe43b144d12540a9e8e5bf8670e28d&type=ExperienceDetails&stamp=1771671217987",
+    videoUrl: "https://www.instagram.com/reel/C_U4jyiNFwv/?igsh=eTY5ZWxyNDVyNWJm",
+    tags: ["Roblox", "Obby", "Pink"]
   }
 ];
