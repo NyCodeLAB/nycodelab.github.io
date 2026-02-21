@@ -288,7 +288,7 @@ const Home = () => {
                 </span>
               </div>
               <p className="text-gray-400 text-sm">
-                Criando projetos incríveis com Python
+                Criando projetos incríveis
               </p>
             </div>
             <div className="flex gap-4">
