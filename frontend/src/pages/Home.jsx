@@ -17,8 +17,6 @@ import {
   Globe,
   Sparkles,
   Github,
-  Mail,
-  MapPin,
   Video
 } from 'lucide-react';
 
