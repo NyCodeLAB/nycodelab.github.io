@@ -18,7 +18,8 @@ import {
   Sparkles,
   Github,
   Mail,
-  MapPin
+  MapPin,
+  Video
 } from 'lucide-react';
 
 const iconMap = {
