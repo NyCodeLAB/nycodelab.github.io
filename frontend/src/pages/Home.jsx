@@ -58,9 +58,6 @@ const Home = () => {
               <a href="#home" className="text-gray-700 hover:text-pink-500 transition-colors font-medium">Início</a>
               <a href="#about" className="text-gray-700 hover:text-pink-500 transition-colors font-medium">Sobre Mim</a>
               <a href="#portfolio" className="text-gray-700 hover:text-pink-500 transition-colors font-medium">Portfólio</a>
-              <Button className="bg-gradient-to-r from-pink-400 to-yellow-400 hover:from-pink-500 hover:to-yellow-500 text-white border-0">
-                Contacto
-              </Button>
             </div>
           </nav>
         </div>
