@@ -252,8 +252,10 @@ const Home = () => {
                       className="w-full bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-pink-600 hover:to-yellow-600 text-white border-0"
                       onClick={() => window.open(project.url, '_blank')}
                     >
-                      <Gamepad2 className="w-4 h-4 mr-2" />
-                      Jogar Agora
+                      {project.category === 'Jogo' && <Gamepad2 className="w-4 h-4 mr-2" />}
+                      {project.category === 'Website' && <Globe className="w-4 h-4 mr-2" />}
+                      {project.category === 'Python' && <Code className="w-4 h-4 mr-2" />}
+                      {project.category === 'Jogo' ? 'Jogar Agora' : project.category === 'Website' ? 'Ver Website' : 'Ver Projeto'}
                     </Button>
                   ) : (
                     <Button variant="outline" className="w-full border-2 border-pink-200 text-pink-600 hover:bg-pink-50">
