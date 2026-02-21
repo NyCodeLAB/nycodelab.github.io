@@ -34,5 +34,15 @@ export const portfolioProjects = [
     image: "https://customer-assets.emergentagent.com/job_nycode-lab/artifacts/hmpqxwi8_Captura%20de%20ecr%C3%A3%202026-02-21%20113353.png",
     url: "https://apanha-pares-ny.lovable.app/",
     tags: ["Python", "Jogo", "Memória"]
+  },
+  {
+    id: 2,
+    title: "Natureza em Dia",
+    description: "Website sobre as estações do ano em Portugal e as frutas de cada época. Descobre quando é a melhor altura para cada fruta!",
+    category: "Website",
+    status: "live",
+    image: "https://customer-assets.emergentagent.com/job_nycode-lab/artifacts/pu4fdpuj_Captura%20de%20ecr%C3%A3%202026-02-21%20114038.png",
+    url: "https://naturezaemdia.netlify.app/",
+    tags: ["Website", "Natureza", "Educação"]
   }
 ];
