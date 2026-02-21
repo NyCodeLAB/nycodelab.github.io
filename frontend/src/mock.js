@@ -27,50 +27,12 @@ export const profileData = {
 export const portfolioProjects = [
   {
     id: 1,
-    title: "Projeto Python #1",
-    description: "Em breve vou adicionar os meus projetos incríveis aqui!",
-    category: "Python",
-    status: "placeholder",
-    image: null
-  },
-  {
-    id: 2,
-    title: "Jogo Python #1",
-    description: "Aqui vou mostrar os jogos que criei na Coders.",
+    title: "Apanha Pares",
+    description: "Um jogo divertido de memória onde tens que apanhar os números pares! Cuidado com os ímpares! Criado com Python.",
     category: "Jogo",
-    status: "placeholder",
-    image: null
-  },
-  {
-    id: 3,
-    title: "Website #1",
-    description: "Os meus websites desenvolvidos vão aparecer aqui.",
-    category: "Website",
-    status: "placeholder",
-    image: null
-  },
-  {
-    id: 4,
-    title: "Projeto Python #2",
-    description: "Mais projetos Python em breve!",
-    category: "Python",
-    status: "placeholder",
-    image: null
-  },
-  {
-    id: 5,
-    title: "Jogo Python #2",
-    description: "Outro jogo fixe que vou criar.",
-    category: "Jogo",
-    status: "placeholder",
-    image: null
-  },
-  {
-    id: 6,
-    title: "Website #2",
-    description: "Mais websites criativos a caminho.",
-    category: "Website",
-    status: "placeholder",
-    image: null
+    status: "live",
+    image: "https://customer-assets.emergentagent.com/job_nycode-lab/artifacts/hmpqxwi8_Captura%20de%20ecr%C3%A3%202026-02-21%20113353.png",
+    url: "https://apanha-pares-ny.lovable.app/",
+    tags: ["Python", "Jogo", "Memória"]
   }
 ];
