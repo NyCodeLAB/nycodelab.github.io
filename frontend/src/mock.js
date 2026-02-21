@@ -47,7 +47,7 @@ export const portfolioProjects = [
   },
   {
     id: 3,
-    title: "Aventura Arcade",
+    title: "Super Mario Game",
     description: "Jogo de aventura estilo retro criado no MakeCode Arcade! Explora o labirinto, evita obstáculos e conquista objetivos!",
     category: "Jogo",
     status: "live",
