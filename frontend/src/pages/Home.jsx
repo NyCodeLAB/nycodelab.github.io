@@ -72,9 +72,8 @@ const Home = () => {
       <section id="home" className="container mx-auto px-4 py-20 md:py-32">
         <div className="flex flex-col md:flex-row items-center justify-center gap-12">
           {/* Avatar */}
-          <div className="relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-pink-400 via-yellow-400 to-orange-400 rounded-3xl blur-lg opacity-75 group-hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="relative bg-white p-2 rounded-3xl">
+          <div className="relative">
+            <div className="bg-white p-2 rounded-3xl">
               <img
                 src={profileData.avatar}
                 alt={profileData.username}
